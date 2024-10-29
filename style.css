@@ -1,0 +1,81 @@
+body{
+    margin-top: 3cm;
+    display: flex;
+    justify-content: center;
+    background:rgba(0, 0, 0, 0.994);
+}
+
+.post{
+    height: 800px;
+    width: 600px;
+    background: white;
+}
+
+.post-header{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 600px;
+    background: white;
+}
+
+.post-img{
+    margin: 0;
+    padding: 0;
+}
+
+.post-body{
+    height: 200px;
+    width: 600px;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+    height: 50px;
+    
+}
+
+.corazon{
+    width: 40px;
+}
+.charla{
+    width: 40px;
+}
+.avion{
+    width: 40px;
+}
+.marcador{
+    margin-left: 400px;
+}
+
+.simbolo{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto{
+    width: 100px;
+}
+
+.puntos{
+    margin-left: 420px;
+    justify-self: right;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parrafo {
+    width: 550px;
+    margin-left: 25px;
+    text-align: justify;
+    color: black;
+}
